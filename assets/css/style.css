@@ -979,6 +979,20 @@ header {
         margin-left: 20px; 
     }
 
+
+    .section-facts {
+        flex-wrap: wrap;
+    }
+    .section-fact{
+        min-width: 50%;
+    }
+
+
+    
+    .section-infomidia {
+        margin-right: 20px;
+    }
+
     .section-map {
         padding-left: 30px;
         padding-right: 30px;
