@@ -1006,7 +1006,232 @@ header {
     .section-map--info-item {
         margin-bottom: 30px;
     }
-   
+
+    .section-body--footer-area {
+        padding: 0 20px;
+    }
+    .section-body--footer-social{
+        display: block;
+        flex:none;
+        margin-right: 50px;
+    }
+    .footer-social-icon {
+        margin-bottom: 5px;
+    }
+    .section-body--footer-text{
+        max-width: 250px;
+    }
+   .copyright {
+        display: none;
+   }
+   .copyright-tablet {
+        margin-left: 20px;
+        margin-top: 50px;
+        text-align: center;
+   }
 }
 
+@media (max-width:450px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 40px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0,0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
 
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .menu li.active a{
+        border: 0;
+        color: #B28756;
+    }
+
+
+    .banner h1 {
+        font-size: 30px;
+    }
+    .banner h2 {
+        font-size: 17px;
+    }
+
+
+    .section-aboutus {
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-aboutus--left p {
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .section-aboutus--right{
+        margin-top: 30px;
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-aboutus--right img {
+        width: 100%;
+    }
+
+
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .section-service :first-child {
+        border-left: 0;
+    }
+
+
+    .section-projects--filters {
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    .section-projects--photo {
+        width: 320px;
+    }
+    .section-projects--photoarea{
+        width: 300px;
+        height: 190px;
+    }
+
+
+    .section-team {
+        max-width: 280px;
+    }
+
+
+    .section-clients--sliders {
+        width: 300%;
+    }
+    .section-clients-desc {
+        max-width: 310px;
+    }
+
+    .section-partner{
+        margin-right: 35px;
+    }
+
+
+    .section-prices {
+        display: block; 
+        padding: 0 30px;
+    }
+      .section-price--area {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    
+    .section-premium .slidearea {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .slide-book img {
+        margin: auto;
+    }
+    .section-premium .slide-infos {
+        margin-top: 40px;
+        max-width: 300px;
+    }
+    .type-feature img {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .section-premium .sliders-pointers {
+        margin-top: 0;
+    }
+
+
+    .section-facts {
+        display: block;
+    }
+    .section-fact{
+        min-width: 100%;
+    }
+
+
+    
+    .section-infomidia {
+        margin-right: 20px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .section-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .section-share--legend{
+        display: none;
+    }
+    .section-icon.twitter {
+        margin-left: 0;
+    }
+
+    .section-map {
+        padding: 0;
+        padding-bottom: 200px;
+    }
+    .section-map--area{
+        width: auto;
+    }
+    .section-map--info {
+        width: auto;
+    }
+    .section-map--info-item {
+        margin-bottom: 30px;
+    }
+
+    .section-body--footer-area {
+        padding: 0 20px;
+    }
+    .section-body--footer-social{
+        display: block;
+        flex:none;
+        margin-right: 50px;
+    }
+    .footer-social-icon {
+        margin-bottom: 5px;
+    }
+    .section-body--footer-text{
+        max-width: 250px;
+    }
+   .copyright {
+        display: none;
+   }
+   .copyright-tablet {
+        margin-left: 20px;
+        margin-top: 50px;
+        text-align: center;
+   }
+}
