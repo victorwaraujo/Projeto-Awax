@@ -500,9 +500,7 @@ header {
 .bg-partners {
     border-bottom: 2px solid #cfcfcf;
     border-top: 2px solid #cfcfcf;
-    padding: 40px;
-    
-    
+    padding: 40px; 
 }
 .section-partners--area  {
     display:flex;
@@ -823,8 +821,8 @@ header {
     margin-bottom: 0;
 }
 .section-map--info-item-img {
-    width: 35px;
-    height: 35px;
+    min-width: 35px;
+    min-height: 35px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1045,9 +1043,13 @@ header {
     .logo {
         margin-left: 30px;
     }
+    .menu img {
+        height: 40px;
+        width: 40px;
+    }
     .menu-opener {
         display: block;
-        width: 40px;
+        
         margin-right: 30px;
     }
     nav {
@@ -1145,10 +1147,26 @@ header {
         max-width: 310px;
     }
 
-    .section-partner{
-        margin-right: 35px;
-    }
 
+    .bg-partners {
+        border-bottom: 2px solid #cfcfcf;
+        border-top: 2px solid #cfcfcf;
+        padding: 40px 30px; 
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .section-partner{
+        flex: 0 0 auto;
+        
+        margin-right: 15px;
+    }
+    .section-partner:last-child{
+        margin-right: 0px;
+    }
+    .section-partner img {
+        max-width: 100%; 
+        padding-right: 30px
+    }
 
     .section-prices {
         display: block; 
@@ -1218,6 +1236,7 @@ header {
         margin-left: 0;
     }
 
+
     .name-email {
         flex-direction: column;
         margin-bottom: 0;
@@ -1225,12 +1244,18 @@ header {
     .name-line{
         margin-right: 0;
     }
+    .name-email, .subject-withline, .message-withline {
+        display: flex;
+        flex-direction: column;
+        
+    }
     .subject-line,
     .name-line,
     .email-line,
     .message-line{
-        width: 370px;
+        width: 80vw;
         margin-bottom: 40px;
+        
     }
     .message-line{
         margin-bottom: 5px;
@@ -1249,6 +1274,7 @@ header {
     .section-map--info-item {
         margin-bottom: 30px;
     }
+    
 
     .section-body--footer-area {
         padding: 0 40px;
