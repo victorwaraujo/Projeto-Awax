@@ -935,6 +935,9 @@ header {
         top: 100px;
         right: 0;
     }
+    nav.active{
+        display: block;
+    }
     .menu ul {
         flex-direction: column;
     }
@@ -949,6 +952,11 @@ header {
     .menu li.active a{
         border: 0;
         color: #B28756;
+    }
+    .menu li a:hover, .menu .active a {
+        border-bottom: 0;
+        color: #FFF;
+        
     }
 
 
@@ -1091,6 +1099,9 @@ header {
         top: 100px;
         right: 0;
     }
+    nav.active{
+        display: block;
+    }
     .menu ul {
         flex-direction: column;
     }
@@ -1105,6 +1116,15 @@ header {
     .menu li.active a{
         border: 0;
         color: #B28756;
+    }
+    .menu .active a {
+        border-bottom: 0;
+        color: #FFF;
+        
+    }
+    .menu li a:hover{
+        border: 0;
+        color: #CCC;
     }
 
 
