@@ -1230,7 +1230,7 @@ header {
     }
     
     .section-premium .sliders {
-        /*width:1000vw;*/
+        width:100%;
         overflow-x: hidden;
         height:100%;
     }
