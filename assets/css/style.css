@@ -1135,6 +1135,7 @@ header {
         font-size: 30px;
     }
     .banner h2 {
+        text-decoration: none;
         font-size: 17px;
     }
 
@@ -1230,13 +1231,12 @@ header {
     }
     
     .section-premium .sliders {
-        width:100%;
-        overflow-x: hidden;
+        width:1000vw;
+        
         height:100%;
     }
     .section-premium .slide {
-        /*width:100vw;*/
-        max-width: 100%;
+        width:100vw;
         height:100%;
         display: inline-block;
         
@@ -1247,6 +1247,8 @@ header {
         flex-direction: column;
         padding-bottom: 0;
         border-bottom: none;
+        max-width: 100%;
+        
     }
     .slide-book img {
         margin: auto;
