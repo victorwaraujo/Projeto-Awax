@@ -1076,6 +1076,7 @@ header {
         flex-direction: column;
         
     }
+    
     .menu-opener:last-child {
         margin-bottom: 0;
         
@@ -1091,6 +1092,9 @@ header {
         margin-right: 30px;
         border-radius: 8px;
 
+    }
+    .menu-opener--line-2{
+        height: 3px;
     }
     nav {
         display: none;
